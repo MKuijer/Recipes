@@ -1,0 +1,69 @@
+{
+  "name": "Glassify",
+  "version": "0.0.1",
+  "description": "HR Registration system",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlassHR/glassify-ui.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors",
+    "build": "tslint ./source/**/*.ts",
+    "test": "karma start ./config/karma/core.js --browsers PhantomJS"
+  },
+  "keywords": [
+    "hours",
+    "transparent",
+    "registration"
+  ],
+  "author": "D.J. van der Burgt && J. Dolieslager",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^4.0.1",
+    "@angular/compiler": "^4.0.1",
+    "@angular/core": "^4.0.1",
+    "@angular/forms": "^4.0.2",
+    "@angular/platform-browser": "^4.0.1",
+    "@angular/platform-browser-dynamic": "^4.0.1",
+    "@angular/router": "^4.0.2",
+    "babel-polyfill": "^6.23.0",
+    "es6-shim": "^0.35.3",
+    "moment": "^2.18.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "^7.0.12",
+    "angular2-template-loader": "^0.6.2",
+    "autoprefixer": "^6.7.7",
+    "awesome-typescript-loader": "^3.1.2",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.3",
+    "node-sass": "^4.5.2",
+    "phantomjs-prebuilt": "^2.1.14",
+    "postcss-loader": "^1.3.3",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "^0.1.10",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.3",
+    "ts-helpers": "^1.1.2",
+    "tslint": "^5.0.0",
+    "tslint-loader": "^3.5.2",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "2.4.1",
+    "webpack-merge": "^4.1.0"
+  }
+}

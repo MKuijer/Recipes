@@ -1,0 +1,25 @@
+/* Module specific global styling */
+@import "./fonts";
+@import "./grid";
+
+* {
+  box-sizing  : border-box;
+  outline     : 0;
+  margin      : 0;
+  padding     : 0;
+  border      : 0;
+  font-family : Calibri;
+}
+
+body {
+  background-color : white;
+}
+
+h1 {
+  color : #000;
+  text-transform: uppercase;
+}
+
+span {
+  user-select : none;
+}

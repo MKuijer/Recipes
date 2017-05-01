@@ -1,0 +1,54 @@
+{
+  "rules" : {
+    "class-name": true, // pascal case class names
+    "comment-format": [ // comments are always with a space after the slashes
+      true,
+      "check-space"
+    ],
+    "indent": [ // whether we use spaces or tabs
+      true,
+      "spaces"
+    ],
+    "no-duplicate-variable": true, // can't declare the same variable twice in the same scope
+    "no-eval": true, // can't use eval
+    "no-internal-module": true, // is typescripts module allowed or not
+    "no-trailing-whitespace": true, // don't allow whitespaces at the end of a line
+    "no-var-keyword": true, // can't use var in favor of only using block-scoped variables like let and const
+    "one-line": [ // opening brace needs to be on the same line as the statement and prepended with a space
+      true,
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "quotemark": [ // the kind of quotes strings should be coded in
+      true,
+      "single"
+    ],
+    "semicolon": true, // using semicolons to close statements
+    "triple-equals": [ // always use triple equals instead of two
+      true
+    ],
+    "typedef-whitespace": [ // defining how we use white-space
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "space",
+        "parameter": "space",
+        "property-declaration": "space",
+        "variable-declaration": "space"
+      }
+    ],
+    "variable-name": [ // don't allow typescript keywords and enforce camelCase variables
+      true,
+      "ban-keywords",
+      "check-format"
+    ],
+    "whitespace": [ // extra whitespace checking
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ]
+  }
+}
