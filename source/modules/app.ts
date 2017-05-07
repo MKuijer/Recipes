@@ -7,6 +7,7 @@ import { RouterModule }  from '@angular/router';
 
 /* Import components*/
 import { Core }   from './app/components/core/core';
+import { Header }   from './app/components/header/header';
 
 /* Import pages */
 import { HomePage }  from '../pages/home/home';
@@ -23,6 +24,7 @@ import { routes } from '../modules/app/app-routes';
     declarations: [
         // components
         Core,
+        Header,
 
         // pages
         HomePage,

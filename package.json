@@ -1,23 +1,19 @@
 {
-  "name": "Glassify",
+  "name": "Recipes",
   "version": "0.0.1",
-  "description": "HR Registration system",
+  "description": "Recipes of Mier",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GlassHR/glassify-ui.git"
+    "url": "https://github.com/MKuijer/Recipes"
   },
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
     "build": "tslint ./source/**/*.ts",
     "test": "karma start ./config/karma/core.js --browsers PhantomJS"
   },
-  "keywords": [
-    "hours",
-    "transparent",
-    "registration"
-  ],
-  "author": "D.J. van der Burgt && J. Dolieslager",
+  "keywords": [ ],
+  "author": "M. Kuijer",
   "license": "ISC",
   "dependencies": {
     "@angular/common": "^4.0.1",

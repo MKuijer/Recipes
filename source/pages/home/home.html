@@ -1,1 +1,3 @@
-<h1>{Je te foodz}</h1>
+<div class="food-category" *ngFor="let category of categories" title="{{ category.description }}">
+    {{ category.name }}
+</div>

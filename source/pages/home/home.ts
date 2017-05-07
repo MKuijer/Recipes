@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { FoodCategory } from '../../modules/app/app-interfaces';
 
 @Component({
     selector: 'home',
@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 })
 
 export class HomePage {
-    title = 'Mier is sexy';
+    categories : Array<FoodCategory> = [
+        { name : 'Beef', description : 'Delicious recipes with cow meat.' },
+        { name : 'Fish', description : 'Fancy recipes from the oceans and rivers.'}
+    ];
 
-    constructor() {
-
-    }
+    constructor() { }
 }
