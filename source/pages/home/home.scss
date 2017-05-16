@@ -1,3 +1,33 @@
-.food-category {
+.category-blocks {
+  width  :800px;
 
+
+  .food-category {
+    width         : 150px;
+    height        : 150px;
+    padding       : 10px;
+    display       : inline-block;
+    margin        : 3px;
+    text-align    : center;
+
+    &:hover {
+      opacity: 0.6;
+      cursor: pointer;
+    }
+
+    .category-text{
+      color   : black;
+      border  : 2px solid #eee;
+    }
+
+    img {
+      width   : 115px;
+      height  : 115px;
+      opacity : 1.0;
+
+      //&:hover {
+      //  opacity : 0.3;
+      //}
+    }
+  }
 }
